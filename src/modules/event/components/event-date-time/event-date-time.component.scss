@@ -1,0 +1,8 @@
+.card-text {
+  @apply min-w-0
+    rounded-lg
+    border-gray-200
+    bg-gray-100
+    placeholder:text-gray-400/75
+    h-2/5;
+}
