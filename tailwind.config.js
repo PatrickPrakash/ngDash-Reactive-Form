@@ -1,6 +1,9 @@
 module.exports = {
-  mode: "jit",
-  content: ["./src/**/*.{html,ts}"],
+  // mode: "jit",
+  content: [
+    "./src/**/*.{html,ts}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+  ],
   darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {},
@@ -34,5 +37,6 @@ module.exports = {
     require("@tailwindcss/forms"),
     require("@tailwindcss/line-clamp"),
     require("@tailwindcss/aspect-ratio"),
+    require("tw-elements/dist/plugin"),
   ],
 };
