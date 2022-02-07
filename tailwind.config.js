@@ -1,15 +1,15 @@
 module.exports = {
   // mode: "jit",
-  content : [
+  content: [
     "./src/**/*.{html,ts}",
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
-  darkMode : "media", // or 'media' or 'class'
-  important : true,
-  theme : {
-    extend : {},
-    fontFamily : {
-      sans : [
+  darkMode: "media", // or 'media' or 'class'
+  important: true,
+  theme: {
+    extend: {},
+    fontFamily: {
+      sans: [
         "ui-sans-serif",
         "system-ui",
         "-apple-system",
@@ -25,15 +25,15 @@ module.exports = {
         "Segoe UI Symbol",
         "Noto Color Emoji",
       ],
-      body : [ "Inter", "sans-serif" ],
+      body: ["Inter", "sans-serif"],
     },
   },
 
-  variants : {
-    extend : {},
+  variants: {
+    extend: {},
   },
 
-  plugins : [
+  plugins: [
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
     require("@tailwindcss/line-clamp"),
