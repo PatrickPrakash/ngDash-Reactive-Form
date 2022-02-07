@@ -18,6 +18,14 @@ $dark-back-clr: hsl(0, 0, 34);
   @apply mt-5 ml-4;
 }
 
+.card-date-text-box {
+  @apply w-full leading-none rounded-lg shadow-sm focus:outline-none  text-gray-600 font-medium border-gray-200 bg-gray-100;
+}
+
+.ant-upload.ant-upload-drag .ant-upload {
+  padding: 0px !important; //removed the default padding in the fileupload ant component
+}
+
 // Material Icon Sizes
 
 .material-icons.md-18 {

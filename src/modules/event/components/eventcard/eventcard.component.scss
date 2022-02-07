@@ -1,7 +1,8 @@
 .card-layout {
-  @apply m-auto bg-slate-50 h-5/6 w-4/12 rounded-md shadow;
+  @apply m-auto bg-slate-50  w-4/12 rounded-md shadow;
+  height: 93%;
 }
 
-.h-002 {
-  height: 0.02em;
+p {
+  color: #1c1c1c;
 }

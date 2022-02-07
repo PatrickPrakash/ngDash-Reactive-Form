@@ -1,9 +1,19 @@
 <div class="flex flex-col card-layout">
-  <p class="font-body text-xl font-medium text-slate-700 card-margin">
-    Create Event
-  </p>
-  <hr class="ml-4 mr-4 mt-6 h-0 text-slate-700" />
+  <p class="font-body text-xl font-medium card-margin">Create Event</p>
+  <hr class="ml-4 mr-4 mt-2 h-0 text-gray-300" />
   <app-event-title-desc></app-event-title-desc>
   <app-event-description></app-event-description>
   <app-event-date-time></app-event-date-time>
+  <app-event-location-meeting></app-event-location-meeting>
+  <app-event-meeting-room></app-event-meeting-room>
+  <hr class="ml-4 mr-4 mt-2 h-0 text-gray-300" />
+  <app-event-guest-view-add></app-event-guest-view-add>
+  <app-event-file-upload></app-event-file-upload>
+  <hr class="ml-4 mr-4 mt-2 h-0 text-gray-300" />
+  <button
+    nz-button
+    class="mt-12 mx-5 h-9 rounded-2xl text-white bg-blue-400 font-body font-medium"
+  >
+    Create Event
+  </button>
 </div>

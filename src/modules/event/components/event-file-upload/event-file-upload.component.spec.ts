@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EventTimePickerComponent } from './event-time-picker.component';
+import { EventFileUploadComponent } from './event-file-upload.component';
 
-describe('EventTimePickerComponent', () => {
-  let component: EventTimePickerComponent;
-  let fixture: ComponentFixture<EventTimePickerComponent>;
+describe('EventFileUploadComponent', () => {
+  let component: EventFileUploadComponent;
+  let fixture: ComponentFixture<EventFileUploadComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EventTimePickerComponent ]
+      declarations: [ EventFileUploadComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EventTimePickerComponent);
+    fixture = TestBed.createComponent(EventFileUploadComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
