@@ -5,6 +5,7 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   darkMode: "media", // or 'media' or 'class'
+  important: true,
   theme: {
     extend: {},
     fontFamily: {

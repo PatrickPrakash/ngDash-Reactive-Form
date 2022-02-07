@@ -1,9 +1,26 @@
 <p class="font-body font-medium text-gray-500 mt-1 ml-4 mb-2">Date</p>
 
 <div class="flex">
-  <app-event-date-picker></app-event-date-picker>
+  <nz-date-picker class="card-date-text-box ml-3 mr-3"></nz-date-picker>
 
-  <app-event-time-picker></app-event-time-picker>
+  <nz-time-picker class="card-date-text-box mr-3"></nz-time-picker>
 
-  <app-event-time-duration-picker></app-event-time-duration-picker>
+  <nz-time-picker
+    class="card-date-text-box mr-3"
+    nzFormat="HH:mm"
+  ></nz-time-picker>
+</div>
+
+<div class="flex event-details items-center ml-4 mt-2">
+  <i
+    nz-icon
+    [nzType]="'check-circle'"
+    [nzTheme]="'twotone'"
+    [nzTwotoneColor]="'#52c41a'"
+    class="mr-2"
+  ></i>
+  <p class="font-body text-xs text-gray-400">
+    The event will take place on the {{ date }} from {{ startTime }} until
+    {{ endTime }}
+  </p>
 </div>
